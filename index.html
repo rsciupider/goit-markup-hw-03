@@ -14,9 +14,9 @@
     <title>Main page</title>
   </head>
   <body>
-    <header>
-      <div class="header-wrapper container">
-        <div>
+    <header class="container">
+      <div class="flex">
+        <div class="flex gap">
           <a
             class="webstudio"
             href="./index.html"
@@ -24,9 +24,8 @@
             title="Strona główna"
             ><span style="color: #2196f3">Web</span>studio</a
           >
-        </div>
-        <div>
-          <ul class="menu">
+
+          <ul class="flex list gap">
             <li>
               <a
                 class="links font-style"
@@ -45,6 +44,7 @@
                 >Portfolio</a
               >
             </li>
+
             <li>
               <a
                 class="links font-style"
@@ -57,7 +57,7 @@
           </ul>
         </div>
         <div>
-          <ul class="address">
+          <ul class="flex list gap">
             <li>
               <a class="address-font3 links" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -65,17 +65,20 @@
             </li>
             <li>
               <a class="address-font3 links" href="tel:+48111111111"
-                >+48111111111</a
+                >+48 111 111 111</a
               >
             </li>
           </ul>
         </div>
       </div>
     </header>
-    <main>
+    <main class="container">
       <section class="section-background section">
-        <div class="container">
-          <h1 class="h1-font">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <div class="container main-container">
+          <h1 class="h1-font">
+            EFEKTYWNE ROZWIĄZANIA <br />
+            DLA WASZEGO BIZNESU
+          </h1>
           <button class="button-style" type="button">Zamów usługe</button>
         </div>
       </section>
@@ -83,7 +86,7 @@
       <section class="section">
         <div class="container">
           <h2></h2>
-          <ul>
+          <ul class="flex list">
             <li>
               <h3 class="h3-font">LOREM IPSUM</h3>
               <p class="font4-style">
@@ -118,7 +121,7 @@
       <section class="section">
         <div class="container">
           <h2 class="h2-font">Czym się zajmujemy</h2>
-          <ul>
+          <ul class="flex list section-1">
             <li>
               <img
                 src="./images/img.jpg"
@@ -146,10 +149,10 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+      <section class="section section-background1">
         <div class="container">
           <h2 class="h2-font">Nasz zespół</h2>
-          <ul>
+          <ul class="flex list section-1">
             <li>
               <img
                 src="./images/worker1.jpg"
@@ -157,8 +160,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="h3-font2">John Doe</h3>
-              <p class="font2-style">Product Designer</p>
+              <div class="flex-1">
+                <h3 class="h3-font2">John Doe</h3>
+                <p class="font2-style">Product Designer</p>
+              </div>
             </li>
             <li>
               <img
@@ -167,8 +172,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="h3-font2">John Doe</h3>
-              <p class="font2-style">Frontend Developer</p>
+              <div class="flex-1">
+                <h3 class="h3-font2">John Doe</h3>
+                <p class="font2-style">Frontend Developer</p>
+              </div>
             </li>
             <li>
               <img
@@ -177,8 +184,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="h3-font2">John Doe</h3>
-              <p class="font2-style">Marketing</p>
+              <div class="flex-1">
+                <h3 class="h3-font2">John Doe</h3>
+                <p class="font2-style">Marketing</p>
+              </div>
             </li>
             <li>
               <img
@@ -187,8 +196,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="h3-font2">John Doe</h3>
-              <p class="font2-style">UI Designer</p>
+              <div class="flex-1">
+                <h3 class="h3-font2">John Doe</h3>
+                <p class="font2-style">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
