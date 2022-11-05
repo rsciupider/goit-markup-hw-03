@@ -1,0 +1,241 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
+:root {
+  --white-clr: #ffffff;
+  --blue-clr: #2196f3;
+  --black-clr: #000000;
+  --black1-clr: #2f303a;
+  --grey-clr: #ffffff99;
+  --grey1-clr: #757575;
+}
+
+.h1-font {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--white-clr);
+}
+
+.h2-font {
+  font-size: 36px;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--black-clr);
+}
+
+.h3-font {
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--black-clr);
+}
+
+.h3-font2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  /* identical to box height */
+
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+
+  color: var(--black-clr);
+}
+
+.h3-font3 {
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: var(--black-clr);
+}
+
+.font-style {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+
+  color: var(--black-clr);
+}
+
+.font2-style {
+  font-size: 16px;
+  line-height: 1;
+  /* identical to box height */
+
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+
+  color: var(--grey1-clr);
+}
+
+.font3-style {
+  font-size: 16px;
+  line-height: 1.88;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--grey1-clr);
+}
+
+.font4-style {
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+letter-spacing: 0.03em;
+color: var(--grey1-clr);
+}
+
+.webstudio {
+  /* position: absolute; */
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 1;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: var(--black-clr);
+  text-decoration: none;
+}
+
+.address-font {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--white-clr);
+  text-decoration: none;
+}
+
+.address-font2 {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+  color: var(--grey-clr);
+}
+
+.address-font3 {
+  color: var(--grey1-clr);
+}
+
+.section-background {
+  background: var(--black1-clr);
+}
+.links {
+  text-decoration: none;
+  /* color: black; */
+}
+
+.links:hover {
+  color: var(--blue-clr);
+}
+
+.links:focus {
+  color: var(--blue-clr);
+}
+
+.button-style {
+  background: var(--blue-clr);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: inherit;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.87;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--white-clr);
+  border: 0;
+  cursor: pointer;
+}
+
+.button1-style {
+  background: var(--white-clr);
+  border-radius: 4px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--black-clr);
+  border: 0;
+  cursor: pointer;
+}
+
+.button1-style:hover {
+  background: var(--blue-clr);
+  /* shadow-middle */
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--white-clr);
+}
+
+.button1-style:focus {
+  background: var(--blue-clr);
+  /* shadow-middle */
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--white-clr);
+}
