@@ -1,3 +1,8 @@
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
+  }
+
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
@@ -103,23 +108,7 @@ letter-spacing: 0.03em;
 color: var(--grey1-clr);
 }
 
-.webstudio {
-  /* position: absolute; */
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
 
-  font-family: "Raleway";
-  font-size: 26px;
-  line-height: 1;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
-
-  color: var(--black-clr);
-  text-decoration: none;
-}
 
 .address-font {
   font-style: normal;
@@ -238,4 +227,54 @@ color: var(--grey1-clr);
   letter-spacing: 0.03em;
 
   color: var(--white-clr);
+}
+
+.header-wrapper {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+.webstudio {
+  /* position: absolute; */
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 1;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: var(--black-clr);
+  text-decoration: none;
+  padding: 25px 93px 25px 0px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 30%;
+}
+
+.address {
+  display:flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
