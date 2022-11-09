@@ -336,3 +336,7 @@ header {
   background-color: var(--white-clr);
   height: 108px;
 }
+
+.font {
+  font-size: 14px
+}
