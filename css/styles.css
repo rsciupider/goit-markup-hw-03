@@ -376,7 +376,7 @@ header {
 .background {
   background-color: var(--white-clr);
   /* height: 108px; */
-  padding: 19px;
+  padding: 20px;
 }
 
 .font {
@@ -392,5 +392,5 @@ img {
 }
 
 .li-item {
-  flex-basis: calc((100% - 30px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
 }
