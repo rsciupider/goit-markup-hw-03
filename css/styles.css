@@ -272,6 +272,10 @@ body {
   align-items: center;
 }
 
+.footer-container {
+  max-width: 1600px;
+  padding-left: 215px;
+}
 .webstudio {
   /* position: absolute; */
   width: 145px;
