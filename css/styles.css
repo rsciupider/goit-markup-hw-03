@@ -343,7 +343,7 @@ body {
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-  row-gap: 30px;
+  gap: 30px;
 }
 
 .fit {
@@ -376,7 +376,7 @@ header {
 .background {
   background-color: var(--white-clr);
   /* height: 108px; */
-  padding: 20px;
+  padding: 19px;
 }
 
 .font {
