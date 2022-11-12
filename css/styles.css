@@ -292,7 +292,15 @@ body {
 
   color: var(--black-clr);
   text-decoration: none;
-  margin-right:63px;
+  margin-right: 63px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  gap: 30px;
 }
 
 .flex-1 {
@@ -309,10 +317,6 @@ body {
   align-items: center;
   gap: 8px;
   justify-content: center;
-}
-
-.gap {
-  gap: 30px;
 }
 
 .section {
@@ -343,14 +347,6 @@ body {
   list-style: none;
 }
 
-.flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-sizing: border-box;
-  gap: 30px;
-}
-
 .fit {
   display: flex;
   flex-wrap: wrap;
@@ -365,7 +361,8 @@ justify-content: center;
 } */
 
 header {
-  margin: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .padding {
