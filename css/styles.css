@@ -5,8 +5,11 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
+  color: var(--grey1-clr);
   max-width: 1600px;
+  background-color: var(--white-clr);
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 :root {
@@ -25,7 +28,6 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   color: var(--white-clr);
 }
 
@@ -33,17 +35,11 @@ body {
   font-size: 36px;
   line-height: 1;
   text-align: center;
-  letter-spacing: 0.03em;
-
   color: var(--black-clr);
 }
 
 .font3 {
-  font-size: 14px;
   line-height: 1;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
   color: var(--black-clr);
 }
 
@@ -51,65 +47,55 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1;
-  letter-spacing: 0.03em;
   color: var(--black-clr);
 }
 
-.h3-font3 {
+.font5 {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--black-clr);
 }
 
-.font-style {
+.font6 {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1;
   letter-spacing: 0.02em;
   color: var(--black-clr);
 }
 
-.font2-style {
+.font7 {
   font-size: 16px;
   line-height: 1;
-  letter-spacing: 0.03em;
-  color: var(--grey1-clr);
 }
 
-.font3-style {
+.font8 {
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
-  color: var(--grey1-clr);
 }
 
-.font4-style {
-  font-size: 14px;
+.font9 {
   line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--grey1-clr);
 }
 
-.address-font {
+.font10 {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--white-clr);
   text-decoration: none;
 }
 
-.address-font2 {
+.font11 {
   font-style: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 1.71;
   color: var(--grey-clr);
 }
 
-.address-font3 {
-  color: var(--grey1-clr);
+.font12 {
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: var(--grey1-clr)
 }
 
 .links {
@@ -142,6 +128,7 @@ body {
   cursor: pointer;
   width: 200px;
   height: 50px;
+  font-weight: 700;
 }
 
 .button1-style {
@@ -153,7 +140,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--black-clr);
   border: 0;
   cursor: pointer;
@@ -172,7 +158,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--white-clr);
 }
 
@@ -187,7 +172,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--white-clr);
 }
 
@@ -242,7 +226,6 @@ body {
   font-family: "Raleway";
   font-size: 26px;
   line-height: 1;
-  letter-spacing: 0.03em;
   color: var(--black-clr);
   text-decoration: none;
   margin-right: 63px;
@@ -327,10 +310,6 @@ body {
 .background {
   background-color: var(--white-clr);
   padding: 19px;
-}
-
-.font {
-  font-size: 14px;
 }
 
 .border {
