@@ -6,7 +6,6 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--grey1-clr);
-  max-width: 1600px;
   background-color: var(--white-clr);
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -39,8 +38,10 @@ body {
 }
 
 .font3 {
+  font-size: 14px;
   line-height: 1;
   color: var(--black-clr);
+  margin-bottom: 10px;
 }
 
 .font4 {
@@ -126,9 +127,8 @@ body {
   color: var(--white-clr);
   border: 0;
   cursor: pointer;
-  width: 200px;
-  height: 50px;
   font-weight: 700;
+  padding: 10px 41px;
 }
 
 .button1-style {
@@ -143,8 +143,7 @@ body {
   color: var(--black-clr);
   border: 0;
   cursor: pointer;
-  width: 93px;
-  height: 38px;
+  padding: 6px 22px;
 }
 
 .button1-style:hover {
@@ -176,7 +175,6 @@ body {
 }
 
 .header-container {
-  max-width: 1600px;
   max-height: 80px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -192,14 +190,12 @@ body {
 }
 
 .main-container {
-  max-width: 1600px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .main-section-container {
-  max-width: 1600px;
   max-height: 600px;
   background-color: var(--black1-clr);
   padding-top: 200px;
@@ -207,10 +203,17 @@ body {
 }
 
 .footer-container {
-  max-width: 1600px;
   padding-top: 60px;
   padding-bottom: 60px;
   background: var(--black1-clr);
+}
+
+.address-position {
+  margin-top: 20px;
+}
+
+.address-position1 {
+  margin-top: 9px;
 }
 
 .section {
@@ -309,7 +312,7 @@ body {
 
 .background {
   background-color: var(--white-clr);
-  padding: 19px;
+  padding: 30px;
 }
 
 .border {
